@@ -1,0 +1,397 @@
+body {
+    background-color: #202122;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+            
+
+.navega {
+    background-color: rgb(0, 0, 0);
+    width: 1400px;
+    margin: auto;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    box-shadow: 0px 0px 2px 0px black;
+}
+
+.img {
+    width: 400px;
+}
+
+.navega a{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    padding: 5px;
+    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease;
+}
+
+.navega a:hover {
+    background-color: white;
+    transform: scale(1.07);
+    color: black;
+}
+
+.menu {
+    display: flex;
+    gap: 50px;
+    text-decoration: none;
+    font-size: 35px;
+    align-items: center;
+}
+
+.navega2 {
+    background-color: black;
+    width: 1400px;
+    margin: auto;
+    padding: 10px 90px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+
+.navega2 a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    
+}
+
+.navega2 a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+
+.principal {
+    background-color: #101418;
+    width: 1400px;
+    margin: auto;
+    padding: 90px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 2px 0px black;
+    overflow: hidden;
+}
+
+.fotos {
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #e4e4e4;
+    justify-content: space-between;
+}
+
+.imagem1 {
+    border-radius: 15px;
+    width: 100%;
+}
+
+.texto {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.texto1 {
+    width: 550px;
+    padding: 20px;
+    background-color: #e4e4e4;
+    border-radius: 15px;
+    text-align: justify;
+    
+}
+
+.texto2 {
+    padding: 20px;
+    background-color: #e4e4e4;
+    border-radius: 15px;
+    text-align: justify;
+}
+
+.divi {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 50px;
+    padding: 1px;
+}
+
+.explica {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+
+.html {
+    width: 400px;
+    background-color: #e4e4e4;
+    padding: 20px;
+    border-radius: 15px;
+    
+}
+
+.titulo{
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.foot {
+    color: white;
+    background-color: #000000;
+    width: 1400px;
+    margin: auto;
+    padding: 1px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 2px 0px black;
+    text-align: center;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    clear: both;
+}
+
+.principal2 {
+    background-color: #101418;
+    width: 1400px;
+    margin: auto;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 2px 0px black;  
+    padding: 90px;
+}
+
+.divisoria {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    padding: 10px;   
+}
+
+.principal2 a {
+    text-decoration: none;
+    color: black;
+    transition: transform 0.5s ease;
+}
+
+.principal2 a:hover {
+    transform: scale(1.07);
+} 
+
+.conteudo {
+    background-color: #e4e4e4;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    float: left;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0px 0px 2px 0px black; ;  
+}
+.categorias {
+    padding: 15px;
+    overflow: hidden;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ft {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.mosaico {
+    background-color: #e4e4e4;
+    margin-bottom: 50px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.parte1 {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.parte2 {
+    display: flex;
+    gap: 10px;
+}
+
+.item1 {
+    background-color: #698f6e;
+    width: 466px;
+    height: 395px;
+    border-radius: 20px;
+}
+
+.item2 {
+    background-color: #698f6e;
+    width: 933px;
+    height: 395px;
+    border-radius: 20px;
+}
+
+.ft2 {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.conteudos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: Helvetica, sans-serif;
+}
+
+.titulo-2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-family: Helvetica, sans-serif;
+}
+
+.blocos {
+    background-color: black;
+    width: 350px;
+    height: 350px;
+    float: left;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    border: solid, 1px, white;
+}
+
+.blocos a{
+    width: 250px;
+    background-color: #000000;
+    color: white;
+    padding: 15px 0px;
+    display: grid;
+    text-decoration: none;  
+    text-align: center;
+    margin: 20px auto;
+    border-radius: 15px;
+    font-size: 25px;
+    border: 1px solid white;
+    transition: transform 0.3s ease;
+}
+
+.blocos a:hover {
+    transform: scale(1.03);
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.icones {
+    width: 50px;
+}
+
+.back {
+    background: white;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 350px;
+    height: 350px;
+    border-radius: 15px;
+}
+
+.edeb {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.nos {
+    background: white;
+    padding: 0px 30px 30px 30px;
+    width: 800px;
+    height: 350px;
+    box-sizing: border-box;
+    text-align: justify;
+    border-radius: 15px;
+}
+
+.nos h3 {
+    color: white;
+    background: black;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+
+.conteudo2 {
+    display: flex;
+
+}
+
+.display {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contato {
+    background: white;  
+    width: 350px;
+    box-sizing: border-box;
+    padding:  0 30px 30px 30px;
+    border-radius: 15px;
+    margin-top: 90px;
+}
+
+.contato h2 {
+    color: white;
+    background: black;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.formulario {
+    background: white;
+    width: 800px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 0 100px 0px 100px;
+    margin-top: 90px;
+}
+
+.formulario h2 {
+    color: white;
+    background: black;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.arti1 {
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.arti2 {
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 15px;
+}
